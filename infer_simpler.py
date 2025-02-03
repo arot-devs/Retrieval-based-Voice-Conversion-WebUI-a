@@ -10,7 +10,7 @@ import numpy as np
 import gradio as gr
 import logging
 import traceback
-from i18n.i18n import I18nAuto
+from infer.lib.fake_i18n import I18nAuto
 from configs.config import Config
 from infer.modules.vc.modules import VC
 
